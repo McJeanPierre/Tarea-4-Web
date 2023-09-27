@@ -1,0 +1,39 @@
+* {
+    color: white;
+  }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #000000;
+    justify-content: center;
+    padding-top: 230px;
+}
+
+  #calculadora{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  input{
+    background-color: transparent;
+    border: 3px solid rgb(0, 19, 56);
+    margin: auto;
+  }
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #results {
+    margin-top: 20px;
+    font-weight: bold;
+  }
